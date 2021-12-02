@@ -12,3 +12,6 @@ Busca_animes
  
  #Visualize a documentação de criação do projeto "https://facebook.github.io/create-react-app/docs/getting-started)."
  #Para fazer a leitura da documentação do ReactJS "https://reactjs.org/"
+ 
+ #Iniciar o Projeto
+  npm start
