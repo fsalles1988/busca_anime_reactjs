@@ -1,0 +1,83 @@
+
+body{
+    background-image: radial-gradient(circle, #826979 0, #695b66 25%, #504b50 50%, #3a3b39 75%, #282d25 100%);
+  /* background-color: rgb(31, 30, 30);*/
+}
+.campoTexto{
+    padding: 25px;
+}
+input{
+    
+    float:inline-end;
+    background-color:rgb(243, 235, 235) ;
+    width: 250px;
+    height: auto;
+    font-size: 20px;
+    color: rgb(43, 55, 226);
+    border: 4px solid rgb(98, 97, 99);
+    border-radius: 10px;
+    
+
+}
+
+input:hover{
+    float:inline-end;
+    background-color: white;
+    width: 250;
+    height: auto;
+    font-size: 20px;
+    color: rgb(1, 13, 182);
+    border: 4px solid brown;
+    border: 10px 10px;
+    
+
+}
+
+ .Header{
+     margin-top: 10px;
+    padding-top: 10px;
+    background-image: radial-gradient(circle at 48.39% 48.08%, #ff4fcf 0, #e14ac9 25%, #be44be 50%, #9c3eb1 75%, #7d39a5 100%);
+    height: 130px;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+.App{
+    padding: 50px;
+    text-align: center;
+    background-image: radial-gradient(to right, red , yellow);
+    background-repeat: no-repeat;
+    
+}
+.App h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(21, 102, 98);
+    text-align: center;
+    text-shadow: 1.5px 0px 2.5px  white;
+}
+
+.animes-list{
+    padding: 5px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items:stretch;
+    font-size: 20px;
+    color: white;
+   flex-wrap: wrap;
+  
+}
+
+.animes-list img {
+   
+    padding: 15px;
+    background-color: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border: 2px solid white;
+    max-width: 100%;
+    max-height: 100%;
+    border-color: black;
+    border-radius: 20px;
+}
